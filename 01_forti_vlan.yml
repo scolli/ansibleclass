@@ -2,8 +2,8 @@
 - hosts: localhost
   vars:
    host: "10.172.10.1"
-   username: "userx"
-   vlanid: "xxx"
+   username: "user6"
+   vlanid: "106"
    vdom: "root"
    ssl_verify: "False"
   vars_prompt:
@@ -30,4 +30,3 @@
         interface: "switch"
         status: "up"
         vdom: "root"
-        
