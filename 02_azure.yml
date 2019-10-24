@@ -112,9 +112,9 @@
 
 - hosts: webserver
   become: yes
-    vars:
-      websiteheader: "Ansible Playbook"
-      websiteauthor: "Colliander"
+  vars:
+    websiteheader: "Ansible Playbook"
+    websiteauthor: "Colliander"
   tasks:
   - name: Install Apache
     dnf:
